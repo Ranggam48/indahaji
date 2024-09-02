@@ -151,7 +151,8 @@ body {
 }
 
 .home p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin-bottom: 4.5remrem;
     /* color: #0a0a0a; */
     color: #fff;
 
@@ -162,12 +163,14 @@ body {
 
 .home .couple {
     margin-top: 30px;
+    margin-bottom: 4rem;
 }
 
 .home .couple h3 {
-    font-family: 'Sacramento';
-    font-size: 2.4rem;
-    color: var(--pink);
+    font-size: 2.8rem;
+    color: white;
+    
+
 }
 
 .home .couple img {
