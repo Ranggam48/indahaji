@@ -135,7 +135,7 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-    color: var(--pink);
+    color: white;
     font-family: 'Sacramento';
     font-size: 5rem;
     font-weight: bold;
@@ -152,7 +152,7 @@ body {
 }
 
 .home p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 1.6rem;
     /* color: #0a0a0a; */
     color: #fff;
@@ -199,6 +199,7 @@ body {
     color: white;
     padding-top: 10rem;
     padding-bottom: 8rem;
+    font-weight: 700;
 }
 
 .info::before {
@@ -210,15 +211,15 @@ body {
     padding-top: 12rem;
     padding-bottom: 5rem;
     filter: brightness(90%);
-    -webkit-filter: brightness(90%);
+    -webkit-filter: ;
 }
 
 .info .alamat {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .info .deskripsi {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 300;
 }
 
@@ -235,12 +236,12 @@ body {
 }
 
 .info .card-body {
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .info .card-footer {
     border-top: 1px solid #999;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 300;
 }
 
@@ -429,19 +430,19 @@ body {
 /* Footer */
 
 footer {
-    background-color: var(--pink);
+    background-color: black;
     padding: 3rem;
     color: white;
 }
 
 footer a {
-    color: var(--bg);
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
-    color: white;
+    color: var(--pink);
 }
 
 footer li {
