@@ -59,7 +59,7 @@ body {
     font-family: 'Sacramento', cursive;
     font-size: 6rem;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
 }
 
 .hero h2 {
@@ -141,18 +141,19 @@ body {
     font-weight: bold;
 }
 
+
 .home h3 {
     /* color: #0a0a0a; */
     color: #fff;
     /* color: #fff; */
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 
 }
 
 .home p {
-    font-size: 1.4rem;
-    margin-bottom: 4.5remrem;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
     /* color: #0a0a0a; */
     color: #fff;
 
@@ -163,13 +164,13 @@ body {
 
 .home .couple {
     margin-top: 30px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .home .couple h3 {
     font-size: 2.8rem;
     color: white;
-    
+
 
 }
 
@@ -192,10 +193,24 @@ body {
 /* Info */
 
 .info {
-    background-color: var(--bg);
+    background-image: url(./img/bg7.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
     padding-top: 10rem;
     padding-bottom: 8rem;
+}
+
+.info::before {
+    background-image: url(./img/bg6.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -5.8rem;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
 }
 
 .info .alamat {
