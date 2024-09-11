@@ -82,14 +82,14 @@ body {
 }
 
 .hero a {
-    color: var(--pink);
+    color: black;
     background-color: white;
     box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-    background-color: var(--pink);
-    color: white;
+    background-color: #f4f4f4;
+    color: black;
 }
 
 
@@ -179,14 +179,14 @@ body {
 }
 
 .home a {
-    color: var(--pink);
+    color: black;
     background-color: white;
     box-shadow: var(--shadow);
 }
 
 .home a:hover {
-    background-color: var(--pink);
-    color: white;
+    background-color: #f4f4f4;
+    color: black;
 }
 
 
@@ -211,7 +211,6 @@ body {
     padding-top: 12rem;
     padding-bottom: 5rem;
     filter: brightness(90%);
-    -webkit-filter: ;
 }
 
 .info .alamat {
@@ -399,8 +398,15 @@ body {
 /* RSVP */
 
 .rsvp {
-    background-color: var(--bg);
+    /* background-color: var(--bg); */
     padding-bottom: 25rem;
+    background-image: url(./img/bg8.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    font-weight: 700;
 }
 
 .rsvp h2 {
@@ -416,14 +422,14 @@ body {
 }
 
 .rsvp button {
-    background-color: var(--pink);
-    color: white;
+    background-color: white;
+    color: black;
     border: 1px solid var(--pink);
 }
 
 .rsvp button:hover {
-    background-color: white;
-    color: var(--pink);
+    background-color: #f4f4f4;
+    color: black;
     border: 1px solid white;
 }
 
